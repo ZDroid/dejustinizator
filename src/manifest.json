@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Justin to pony",
+  "author": "Zlatan Vasović",
+  "description": "Replaces weird Justin Bieber with little crazy pink pony.",
+  "version": "0.1.0",
+  "homepage_url": "https://github.com/ZDroid/justin-to-pony",
+
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["justin-to-pony.js"],
+    "run_at": "document_end"
+  }],
+
+  "offline_enabled": true
+}
