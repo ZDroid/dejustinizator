@@ -5,6 +5,8 @@ little crazy pink pony.
 
 Licensed under the MIT License.
 
+![Justin to pony logo](https://raw.github.com/ZDroid/justin-to-pony/master/src/icon-128.png)
+
 ## Installation
 
 Clone this repository and open **chrome://extensions/** page. Be sure that you
