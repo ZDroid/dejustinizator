@@ -5,11 +5,11 @@ function handleText(textNode) {
   'use strict';
 
   var val = textNode.nodeValue;
-  val = val.replace(/\bJustin Bieber\b/g, "Little crazy pink pony")
+  val = val.replace(/\bJustin Bieber\b/g, "Little crazy pink pony");
   val = val.replace(/\bJustin bieber\b/g, "Little crazy pink pony");
   val = val.replace(/\bjustin bieber\b/g, "little crazy pink pony");
   // For pepper lovers
-  val = val.replace(/\bBieber\b/g, "pony pepper");
+  val = val.replace(/\bBieber\b/g, "Pepper pony");
   
   textNode.nodeValue = val;
 }
