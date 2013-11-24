@@ -14,7 +14,7 @@ function handleText(textNode) {
   textNode.nodeValue = val;
 }
 
-// Walk it all around the world
+// Walk it all around the page
 function walk(node) {
   'use strict';
 
