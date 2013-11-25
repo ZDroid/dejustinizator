@@ -11,7 +11,7 @@ Licensed under the MIT License.
 
 Clone this repository and open **chrome://extensions/** page. Be sure that you
 are in **Developer mode**. Click on **Load unpacked extension** and choose a
-`src/` directory of extesion.
+`src/` directory of extension.
 
 ## Screenshot
 
