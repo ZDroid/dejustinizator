@@ -4,13 +4,28 @@
 function handleText(textNode) {
   'use strict';
 
-  var val = textNode.nodeValue;
-  val = val.replace(/\bJustin Bieber\b/g, "Little crazy pink pony");
-  val = val.replace(/\bJustin bieber\b/g, "Little crazy pink pony");
-  val = val.replace(/\bjustin bieber\b/g, "little crazy pink pony");
-  // For pepper lovers
-  val = val.replace(/\bBieber\b/g, "Pepper pony");
-  
+  var search = [
+        // Strings for search
+        /\bJustin Bieber\b/g,
+        /\bJustin bieber\b/g,
+        /\bjustin bieber\b/g,
+        /\bBieber\b/g
+      ],
+      replace = [
+        // Replacements
+        'Little crazy pink pony',
+        'Little crazy pink pony',
+        'little crazy pink pony',
+        'Pepper pony'
+      ],
+      val = textNode.nodeValue,
+      i;
+
+  // Replacing loop
+  for (i = 0; i < search.length; i++) {
+    val = val.replace(search[i], replace[i]);
+  }
+
   textNode.nodeValue = val;
 }
 
