@@ -1,6 +1,6 @@
 /*! Justin to pony | MIT License | http://git.io/justin-to-pony */
 
-// Handle Biebered text
+// Handle "Biebered" text
 function handleText(textNode) {
   'use strict';
 
