@@ -6,16 +6,12 @@ function handleText(textNode) {
 
   var search = [
         // Strings for search
-        /\bJustin Bieber\b/g,
-        /\bJustin bieber\b/g,
-        /\bjustin bieber\b/g,
-        /\bBieber\b/g
+        /\bJustin Bieber\b/i,
+        /\bBieber\b/i
       ],
       replace = [
         // Replacements
         'Little crazy pink pony',
-        'Little crazy pink pony',
-        'little crazy pink pony',
         'Pepper pony'
       ],
       val = textNode.nodeValue,
