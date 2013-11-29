@@ -4,13 +4,11 @@
 function handleText(textNode) {
   'use strict';
 
-  var search = [
-        // Strings for search
+  var searches = [
         /\bJustin Bieber\b/i,
         /\bBieber\b/i
       ],
-      replace = [
-        // Replacements
+      replacements = [
         'Little crazy pink pony',
         'Pepper pony'
       ],
@@ -18,8 +16,8 @@ function handleText(textNode) {
       i;
 
   // Replacing loop
-  for (i = 0; i < search.length; i++) {
-    val = val.replace(search[i], replace[i]);
+  for (i = 0; i < searches.length; i++) {
+    val = val.replace(searches[i], replacements[i]);
   }
 
   textNode.nodeValue = val;
