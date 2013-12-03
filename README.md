@@ -1,7 +1,7 @@
 # Justin to pony
 
 **Justin to pony** is a Chrome extension for replacing weird Justin Bieber with
-little crazy pink pony.
+Little crazy pink pony.
 
 Licensed under the MIT License.
 
