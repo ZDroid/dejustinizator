@@ -19,7 +19,7 @@ are in **Developer mode**. Click on **Load unpacked extension** and choose a
 
 ![Justin to pony screenshot](https://raw.github.com/ZDroid/justin-to-pony/master/screenshot.png)
 
-(*Blocked* is my opinion. Anyway, I highlighted it.)
+(*Blocked* is my opinion. **:P**)
 
 ## Author
 
