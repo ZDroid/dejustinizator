@@ -52,5 +52,5 @@ function walk(node) {
   }
 }
 
-// Finally replace Justin with little crazy pink pony
+// Finally replace Justin Bieber with Little crazy pink pony
 walk(document.body);
