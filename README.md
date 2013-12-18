@@ -3,7 +3,7 @@
 > Chrome extension for replacing weird Justin Bieber with Little crazy pink
 pony
 
-If you don't love Justin.
+If you don't like Justin Bieber.
 
 Licensed under the MIT License.
 
