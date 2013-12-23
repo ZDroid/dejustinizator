@@ -30,7 +30,7 @@ function walk(node) {
   var child,
       next;
 
-  switch(node.nodeType) {
+  switch (node.nodeType) {
     // Element
     case 1:
     // Document
