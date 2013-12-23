@@ -1,4 +1,4 @@
-# Justin to pony
+# Justin to pony [![Build status](https://travis-ci.org/ZDroid/justin-to-pony.png?branch=master)](https://travis-ci.org/ZDroid/justin-to-pony)
 
 > Chrome extension for replacing weird Justin Bieber with Little crazy pink
 pony
