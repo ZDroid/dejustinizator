@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "src/justin-to-pony.js",
   "scripts": {
-    "test": "jscs src/justin-to-pony.js && jshint src/justin-to-pony.js"
+    "test": "jscs src/*.js && jshint src/*.js"
   },
   "repository": {
     "type": "git",
