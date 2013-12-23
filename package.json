@@ -1,0 +1,16 @@
+{
+  "name": "justin-to-pony",
+  "version": "0.1.0",
+  "main": "src/justin-to-pony.js",
+  "scripts": {
+    "test": "jscs src/justin-to-pony.js && jshint src/justin-to-pony.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZDroid/justin-to-pony.git"
+  },
+  "devDependencies": {
+    "jscs": "1.1.0",
+    "jshint": "2.3.0"
+  }
+}
