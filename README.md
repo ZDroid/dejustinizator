@@ -22,10 +22,3 @@ are in **Developer mode**. Click on **Load unpacked extension** and choose a
 ![Justin to pony screenshot](https://raw.github.com/ZDroid/justin-to-pony/master/screenshot.png)
 
 (*Blocked* is my opinion.)
-
-## Author
-
-**Zlatan Vasović**
-
-* <https://twitter.com/zdr0id>
-* <https://github.com/ZDroid>
