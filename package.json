@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "jscs": "1.1.0",
-    "jshint": "2.3.0"
+    "jshint": "2.4.0"
   }
 }
