@@ -5,15 +5,15 @@ function handleText(textNode) {
   'use strict';
 
   var searches = [
-        /\bJustin Bieber\b/i,
-        /\bBieber\b/i
-      ],
-      replacements = [
-        'Little crazy pink pony',
-        'Pepper pony'
-      ],
-      val = textNode.nodeValue,
-      i;
+    /\bJustin Bieber\b/i,
+    /\bBieber\b/i
+  ];
+  var replacements = [
+    'Little crazy pink pony',
+    'Pepper pony'
+  ];
+  var val = textNode.nodeValue;
+  var i;
 
   // Replacing loop
   for (i = 0; i < searches.length; i++) {
@@ -27,8 +27,8 @@ function handleText(textNode) {
 function walk(node) {
   'use strict';
 
-  var child,
-      next;
+  var child;
+  var next;
 
   switch (node.nodeType) {
     // Element
