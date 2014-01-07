@@ -5,8 +5,6 @@ pony
 
 If you don't like Justin Bieber.
 
-Licensed under the MIT License.
-
 ![Justin to pony logo](https://raw.github.com/ZDroid/justin-to-pony/master/src/icon-128.png)
 
 ## Installation
@@ -22,3 +20,7 @@ are in **Developer mode**. Click on **Load unpacked extension** and choose a
 ![Justin to pony screenshot](https://raw.github.com/ZDroid/justin-to-pony/master/screenshot.png)
 
 (*Blocked* is my opinion.)
+
+## License
+
+MIT &copy; [Zlatan Vasović](https://github.com/ZDroid)
