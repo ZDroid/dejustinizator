@@ -43,12 +43,12 @@ function walk(node) {
         walk(child);
         child = next;
       }
-    break;
+      break;
 
     // Text node
     case 3:
       handleText(node);
-    break;
+      break;
   }
 }
 

@@ -5,7 +5,7 @@
   },
   "repository": "ZDroid/justin-to-pony",
   "devDependencies": {
-    "jscs": "1.1.0",
-    "jshint": "2.4.1"
+    "jscs": "1.2.x",
+    "jshint": "2.4.x"
   }
 }
