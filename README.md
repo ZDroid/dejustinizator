@@ -9,9 +9,9 @@ If you don't like Justin Bieber.
 
 ## Installation
 
-Clone this repository and open **chrome://extensions/** page. Be sure that you
-are in **Developer mode**. Click on **Load unpacked extension** and choose a
-`src/` directory of extension.
+Clone this repository and open **chrome://extensions/** page. Be sure you are
+in **Developer mode**. Click on **Load unpacked extension** and choose a `src/`
+directory of extension.
 
 ## Screenshot
 
