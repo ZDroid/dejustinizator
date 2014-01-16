@@ -1,4 +1,7 @@
-/*! Justin to pony | MIT License | http://git.io/justin-to-pony */
+/*!
+ * Justin to pony (http://git.io/justin-to-pony)
+ * Licensed under the MIT License.
+ */
 
 // Handle "Biebered" text
 function handleText(textNode) {
