@@ -16,7 +16,7 @@
   "content_scripts": [{
     "matches": ["http://*/*", "https://*/*"],
     "js": ["justin-to-pony.js"],
-    "run_at": "document_end"
+    "run_at": "document_idle"
   }],
 
   "offline_enabled": true
