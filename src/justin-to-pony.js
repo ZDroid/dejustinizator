@@ -7,7 +7,7 @@
   'use strict';
 
   // Handle "Biebered" text
-  function handleText(textNode) {
+  function handleText(text) {
     var searches = [
       /\bJustin Bieber\b/i,
       /\bBieber\b/i
@@ -16,7 +16,7 @@
       'Little crazy pink pony',
       'Pepper pony'
     ];
-    var val = textNode.nodeValue;
+    var val = text.nodeValue;
     var i;
 
     // Replacing loop
@@ -24,7 +24,7 @@
       val = val.replace(searches[i], replacements[i]);
     }
 
-    textNode.nodeValue = val;
+    text.nodeValue = val;
   }
 
   // Walk it all around the page
