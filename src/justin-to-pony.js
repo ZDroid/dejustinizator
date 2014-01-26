@@ -56,4 +56,5 @@
 
   // Finally replace Justin Bieber with Little crazy pink pony
   walk(document.body);
+  walk(document.head);
 })();
