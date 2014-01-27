@@ -7,7 +7,7 @@
   'use strict';
 
   // Handle "Biebered" text
-  function handleText(text) {
+  function handle(text) {
     var searches = [
       /\bJustin Bieber\b/i,
       /\bBieber\b/i
@@ -27,8 +27,8 @@
     text.nodeValue = val;
   }
 
-  // Walk it all around the page
-  function walk(node) {
+  // "Unbieber" the text
+  function unbieber(node) {
     var child;
     var next;
 
@@ -42,19 +42,18 @@
         child = node.firstChild;
         while (child) {
           next = child.nextSibling;
-          walk(child);
+          unbieber(child);
           child = next;
         }
         break;
 
       // Text node
       case 3:
-        handleText(node);
+        handle(node);
         break;
     }
   }
 
-  // Finally replace Justin Bieber with Little crazy pink pony
-  walk(document.body);
-  walk(document.head);
+  // Invoke "unbiebering"
+  unbieber(document);
 })();
