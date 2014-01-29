@@ -15,7 +15,7 @@ directory of extension.
 
 ## Screenshot
 
-> A picture is worth a thousand words.
+A picture is worth a thousand words.
 
 ![Justin to pony screenshot](https://raw.github.com/ZDroid/justin-to-pony/master/screenshot.png)
 
