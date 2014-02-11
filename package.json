@@ -1,9 +1,9 @@
 {
   "name": "justin-to-pony",
+  "repository": "ZDroid/justin-to-pony",
   "scripts": {
     "test": "jshint src/*.js && jscs src/*.js"
   },
-  "repository": "ZDroid/justin-to-pony",
   "devDependencies": {
     "jscs": "1.2.x",
     "jshint": "2.4.x"
