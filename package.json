@@ -7,5 +7,6 @@
   "devDependencies": {
     "jscs": "1.2.x",
     "jshint": "2.4.x"
-  }
+  },
+  "private": true
 }
