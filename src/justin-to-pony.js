@@ -17,10 +17,9 @@
       'Pepper pony'
     ];
     var val = text.nodeValue;
-    var i;
 
     // Replacing loop
-    for (i = 0; i < searches.length; i++) {
+    for (var i = 0; i < searches.length; i++) {
       val = val.replace(searches[i], replacements[i]);
     }
 
