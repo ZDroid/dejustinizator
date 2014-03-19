@@ -16,14 +16,14 @@
       'Little crazy pink pony',
       'Pepper pony'
     ];
-    var val = text.nodeValue;
+    var value = text.nodeValue;
 
     // Replacing loop
     for (var i = 0; i < searches.length; i++) {
-      val = val.replace(searches[i], replacements[i]);
+      value = value.replace(searches[i], replacements[i]);
     }
 
-    text.nodeValue = val;
+    text.nodeValue = value;
   }
 
   // "Unbieber" the text
