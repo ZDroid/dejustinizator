@@ -1,7 +1,7 @@
 # Justin to pony
 
-[![Build status](https://travis-ci.org/ZDroid/justin-to-pony.png?branch=master)](https://travis-ci.org/ZDroid/justin-to-pony)
-[![devDependency status](https://david-dm.org/ZDroid/justin-to-pony/dev-status.png?theme=shields.io)](https://david-dm.org/ZDroid/justin-to-pony#info=devDependencies)
+[![Build Status](https://travis-ci.org/ZDroid/justin-to-pony.svg?branch=master)](https://travis-ci.org/ZDroid/justin-to-pony)
+[![devDependency Status](https://david-dm.org/ZDroid/justin-to-pony/dev-status.svg)](https://david-dm.org/ZDroid/justin-to-pony#info=devDependencies)
 
 > Chrome extension for replacing weird Justin Bieber with Little crazy pink
 pony
