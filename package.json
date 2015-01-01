@@ -5,7 +5,7 @@
     "test": "jshint src/*.js && jscs src/*.js"
   },
   "devDependencies": {
-    "jscs": "1.6.x",
+    "jscs": "1.9.x",
     "jshint": "2.5.x"
   },
   "private": true
