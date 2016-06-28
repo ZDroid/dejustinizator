@@ -1,5 +1,5 @@
 /*!
- * Justin to pony (http://git.io/justin-to-pony)
+ * Dejustinizator (https://github.com/ZDroid/dejustinizator)
  * Licensed under the MIT License.
  */
 
@@ -8,10 +8,14 @@
 
   // Handle "Biebered" text
   function handle(text) {
+
+    // Words to be replaced
     var searches = [
       /\bJustin Bieber\b/i,
       /\bBieber\b/i
     ];
+
+    // Replacements
     var replacements = [
       'Little crazy pink pony',
       'Pepper pony'
@@ -32,12 +36,9 @@
     var next;
 
     switch (node.nodeType) {
-      // Element
-      case 1:
-      // Document
-      case 9:
-      // Document fragment
-      case 11:
+      case 1:   // Element
+      case 9:   // Document
+      case 11:  // Document fragment
         child = node.firstChild;
         while (child) {
           next = child.nextSibling;

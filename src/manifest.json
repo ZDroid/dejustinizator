@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
 
-  "name": "Justin to pony",
+  "name": "Dejustinizator",
   "author": "Zlatan Vasović",
-  "description": "Replaces weird Justin Bieber with Little crazy pink pony.",
+  "description": "Replace Justin Bieber's name with anything you want.",
   "version": "0.3.0",
-  "homepage_url": "https://github.com/ZDroid/justin-to-pony",
+  "homepage_url": "https://github.com/ZDroid/dejustinizator",
 
   "icons": {
     "16": "icon-16.png",
@@ -15,7 +15,7 @@
 
   "content_scripts": [{
     "matches": ["http://*/*", "https://*/*"],
-    "js": ["justin-to-pony.js"],
+    "js": ["dejustinizator.js"],
     "run_at": "document_idle"
   }],
 

@@ -1,14 +1,13 @@
-# Justin to pony
+# Dejustinizator
 
-[![Build Status](https://travis-ci.org/ZDroid/justin-to-pony.svg?branch=master)](https://travis-ci.org/ZDroid/justin-to-pony)
-[![devDependency Status](https://david-dm.org/ZDroid/justin-to-pony/dev-status.svg)](https://david-dm.org/ZDroid/justin-to-pony#info=devDependencies)
+[![Build Status](https://travis-ci.org/ZDroid/dejustinizator.svg?branch=master)](https://travis-ci.org/ZDroid/dejustinizator)
+[![devDependency Status](https://david-dm.org/ZDroid/dejustinizator/dev-status.svg)](https://david-dm.org/ZDroid/dejustinizator#info=devDependencies)
 
-> Chrome extension for replacing weird Justin Bieber with Little crazy pink
-pony
+> Chrome extension for replacing Justin Bieber's name with anything you want
 
-If you don't like Justin Bieber.
+If you don't wanna see his name all over the Internet.
 
-![Justin to pony logo](https://raw.github.com/ZDroid/justin-to-pony/master/src/icon-128.png)
+![Dejustinizator logo](https://raw.github.com/ZDroid/dejustinizator/master/src/icon-128.png)
 
 ## Installation
 
@@ -20,9 +19,7 @@ in **Developer mode**. Click on **Load unpacked extension** and choose the
 
 A picture is worth a thousand words.
 
-![Justin to pony screenshot](https://raw.github.com/ZDroid/justin-to-pony/master/screenshot.png)
-
-(*Blocked* is my opinion.)
+![Dejustinizator screenshot](https://raw.github.com/ZDroid/justin-to-pony/master/screenshot.png)
 
 ## License
 
