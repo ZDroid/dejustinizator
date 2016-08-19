@@ -9,7 +9,6 @@
     "es6": true
   },
   "rules": {
-    // Possible Errors
     "array-callback-return": "error",
     "comma-dangle": ["error", "never"],
     "handle-callback-err": "error",
@@ -52,7 +51,6 @@
     "valid-jsdoc": "off",
     "valid-typeof": "error",
 
-    // Best Practices
     "accessor-pairs": "error",
     "block-scoped-var": "error",
     "consistent-return": "error",
@@ -108,7 +106,6 @@
     "wrap-iife": "error",
     "yoda": "error",
 
-    // Variables
     "init-declarations": "off",
     "no-catch-shadow": "error",
     "no-delete-var": "error",
@@ -121,7 +118,6 @@
     "no-unused-vars": "error",
     "no-use-before-define": "off",
 
-    // Stylistic
     "array-bracket-spacing": "error",
     "block-spacing": "error",
     "brace-style": "error",
@@ -173,7 +169,6 @@
     "space-in-parens": "error",
     "space-unary-ops": "error",
 
-    // ES6
     "arrow-parens": "error",
     "arrow-spacing": "error",
     "constructor-super": "error",
