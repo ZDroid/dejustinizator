@@ -1,29 +1,29 @@
 /*!
- * Dejustinizator (https://github.com/ZDroid/dejustinizator)
+ * Dejustinizator (https://github.com/zdroid/dejustinizator)
  * Licensed under the MIT License.
  */
 
-(function () {
-  'use strict';
+'use strict';
 
+{
   // Handle "Biebered" text
   function handle(text) {
 
     // Words to be replaced
-    var searches = [
-      /\bJustin Bieber\b/i,
-      /\bBieber\b/i
+    let searches = [
+      /\bJustin Bieber/i,
+      /JustinBieber/i
     ];
 
     // Replacements
-    var replacements = [
+    let replacements = [
       'Little crazy pink pony',
-      'Pepper pony'
+      'FlyingCyanicTurtle'
     ];
-    var value = text.nodeValue;
+    let value = text.nodeValue;
 
     // Replacing loop
-    for (var i = 0; i < searches.length; i++) {
+    for (let i = 0; i < searches.length; i++) {
       value = value.replace(searches[i], replacements[i]);
     }
 
@@ -32,8 +32,8 @@
 
   // "Unbieber" the text
   function unbieber(node) {
-    var child;
-    var next;
+    let child;
+    let next;
 
     switch (node.nodeType) {
       case 1:   // Element
@@ -51,9 +51,13 @@
       case 3:
         handle(node);
         break;
+
+      // Just in case
+      default:
+        break;
     }
   }
 
   // Invoke "unbiebering"
   unbieber(document);
-})();
+}

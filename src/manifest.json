@@ -5,7 +5,7 @@
   "author": "Zlatan Vasović",
   "description": "Replace Justin Bieber's name with anything you want.",
   "version": "0.3.0",
-  "homepage_url": "https://github.com/ZDroid/dejustinizator",
+  "homepage_url": "https://github.com/zdroid/dejustinizator",
 
   "icons": {
     "16": "icon-16.png",

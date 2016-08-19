@@ -2,11 +2,10 @@
   "name": "dejustinizator",
   "repository": "ZDroid/dejustinizator",
   "scripts": {
-    "test": "jshint src/*.js && jscs src/*.js"
+    "test": "eslint src/*.js"
   },
   "devDependencies": {
-    "jscs": "3.0.x",
-    "jshint": "2.9.x"
+    "eslint": "3.3.x"
   },
   "private": true
 }
