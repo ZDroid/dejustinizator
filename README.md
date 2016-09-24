@@ -16,6 +16,16 @@ Clone this repository and open **chrome://extensions/** page. Be sure you are
 in **Developer mode**. Click on **Load unpacked extension** and choose the
 `src/` directory of extension.
 
+## Customization
+
+Dejustinizator isn't hard to customize. All you have to do is to edit
+`src/dejustinizator.css`.
+
+1. Add the search regex in `searches` array.
+2. Add the replacement in `replacements` array.
+
+Try it out and blacklist all celebrity names you don't want to see.
+
 ## Screenshot
 
 A picture is worth a thousand words.
