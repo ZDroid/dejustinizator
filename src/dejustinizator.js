@@ -8,7 +8,6 @@
 {
   // Handle "Biebered" text
   function handle(text) {
-
     // Words to be replaced
     let searches = [
       /\bJustin Bieber/i,
@@ -23,9 +22,9 @@
     let value = text.nodeValue;
 
     // Replacing loop
-    for (let i = 0; i < searches.length; i++) {
-      value = value.replace(searches[i], replacements[i]);
-    }
+    searches.forEach((element, index) => {
+      value = value.replace(element, replacements[index]);
+    });
 
     text.nodeValue = value;
   }
@@ -52,7 +51,7 @@
         handle(node);
         break;
 
-      // Just in case
+      // Just in case (sorry for a horrible pun)
       default:
         break;
     }
