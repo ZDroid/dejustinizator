@@ -6,12 +6,12 @@
 'use strict';
 
 {
-  // Handle "Biebered" text
+  // Handle "biebered" text
   function handle(text) {
     // Words to be replaced
     let searches = [
-      /\bJustin Bieber/i,
-      /JustinBieber/i
+      /\bjustin bieber/i,
+      /justinbieber/i
     ];
 
     // Replacements
