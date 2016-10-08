@@ -1,6 +1,5 @@
 {
   "name": "dejustinizator",
-  "repository": "zdroid/dejustinizator",
   "scripts": {
     "test": "eslint src/*.js"
   },
