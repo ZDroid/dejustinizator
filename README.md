@@ -1,7 +1,7 @@
 # Dejustinizator
 
-[![Build Status](https://travis-ci.org/zdroid/dejustinizator.svg?branch=master)](https://travis-ci.org/zdroid/dejustinizator)
-[![devDependency Status](https://david-dm.org/zdroid/dejustinizator/dev-status.svg)](https://david-dm.org/zdroid/dejustinizator#info=devDependencies)
+[![Build status](https://travis-ci.org/zdroid/dejustinizator.svg?branch=master)](https://travis-ci.org/zdroid/dejustinizator)
+[![devDependencies status](https://david-dm.org/zdroid/dejustinizator/dev-status.svg)](https://david-dm.org/zdroid/dejustinizator?type=dev)
 
 > Chrome extension for replacing Justin Bieber's name with anything you want
 
