@@ -1,5 +1,5 @@
 /*!
- * Dejustinizator (https://github.com/zdroid/dejustinizator)
+ * Dejustinizator v1.0.0 (https://github.com/zdroid/dejustinizator)
  * Licensed under the MIT License.
  */
 
