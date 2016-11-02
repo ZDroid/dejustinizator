@@ -4,7 +4,7 @@
     "test": "eslint src/*.js"
   },
   "devDependencies": {
-    "eslint": "3.8.x"
+    "eslint": "3.9.x"
   },
   "private": true
 }
